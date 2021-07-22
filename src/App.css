@@ -43,7 +43,7 @@
   text-decoration: none;
 }
 
-.title2 h1 a:hover {
+.title2 h3 a:hover {
   text-decoration:underline
 }
 
@@ -107,7 +107,7 @@
 
 .rabbit {
   background-image: url(./assets/old_moon.png);
-  min-height: 130vh;
+  min-height: 150vh;
   position: relative;
 }
 
@@ -116,5 +116,9 @@
 }
 
 .content div {
-  margin: 2rem;
+  margin: 1rem;
+}
+
+.content a {
+  background-color: rgba(0, 0, 0, 0.05);
 }
