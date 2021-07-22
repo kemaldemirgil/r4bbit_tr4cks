@@ -1,0 +1,120 @@
+/* import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/* variables */
+:root {
+  --font1: 'Roboto Mono', monospace;
+}
+
+/* master container */
+.App {
+  font-family: var(--font1);
+}
+
+.App * p {
+  font-size: 90%;
+  margin-bottom: 0;
+}
+
+/* home */
+.home {
+  background-image: url(./assets/stardust.png);
+  min-height: 100vh;
+}
+
+.home * {
+  color:antiquewhite
+}
+
+.title, .title2 {
+  float: right;
+  padding: 3rem;
+}
+
+.title small, .title2 small {
+  float: right;
+}
+
+.title2  {
+  font-size: 80%;
+}
+
+.title2 h1 a {
+  text-decoration: none;
+}
+
+.title2 h1 a:hover {
+  text-decoration:underline
+}
+
+/* navigator */
+/* .nav-container {
+  bottom:
+} */
+
+.nav {
+  position: absolute;
+  bottom: 5rem;
+  left: 5rem;
+}
+
+.nav div {
+  display: inline-block;
+  padding: 1rem 1rem 1rem 0;
+  border-left: 1.2rem solid rgba(0, 0, 0, 0.2);
+  width: 10rem;
+}
+.nav p {
+  background-color: rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+}
+
+.nav ul li {
+  list-style:none;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.nav ul li a {
+  color:rgba(250, 235, 215, 0.75);
+  text-decoration: none;
+}
+
+.nav ul li:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  color:antiquewhite;
+  text-decoration: underline;
+}
+
+.nav ul li a:hover {
+  color:antiquewhite
+}
+
+.author {
+  position: absolute;
+  bottom: 1rem;
+  left: 5rem;
+}
+
+/* rabbit */
+.rabbit *, .rabbit * a {
+  color:rgb(0, 0, 0)
+}
+
+.rabbit .nav ul li a, .rabbit .nav ul li:hover {
+  color:rgba(0, 0, 0, 0.75);
+}
+
+.rabbit {
+  background-image: url(./assets/old_moon.png);
+  min-height: 130vh;
+  position: relative;
+}
+
+.content {
+  padding: 10rem 5rem;
+}
+
+.content div {
+  margin: 2rem;
+}
