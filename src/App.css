@@ -1,9 +1,9 @@
 /* import */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
 /* variables */
 :root {
-  --font1: 'Roboto Mono', monospace;
+  --font1: "Roboto Mono", monospace;
 }
 
 /* master container */
@@ -23,19 +23,21 @@
 }
 
 .home * {
-  color:antiquewhite
+  color: antiquewhite;
 }
 
-.title, .title2 {
+.title,
+.title2 {
   float: right;
   padding: 3rem;
 }
 
-.title small, .title2 small {
+.title small,
+.title2 small {
   float: right;
 }
 
-.title2  {
+.title2 {
   font-size: 80%;
 }
 
@@ -44,18 +46,18 @@
 }
 
 .title2 h3 a:hover {
-  text-decoration:underline
+  text-decoration: underline;
 }
 
 /* navigator */
 /* .nav-container {
-  bottom:
+  position: relative;
 } */
 
 .nav {
   position: absolute;
   bottom: 5rem;
-  left: 5rem;
+  left: 2rem;
 }
 
 .nav div {
@@ -70,24 +72,24 @@
 }
 
 .nav ul li {
-  list-style:none;
+  list-style: none;
   background-color: rgba(0, 0, 0, 0.05);
 }
 
 .nav ul li a {
-  color:rgba(250, 235, 215, 0.75);
+  color: rgba(250, 235, 215, 0.75);
   text-decoration: none;
 }
 
 .nav ul li:hover {
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0.2);
-  color:antiquewhite;
+  color: antiquewhite;
   text-decoration: underline;
 }
 
 .nav ul li a:hover {
-  color:antiquewhite
+  color: antiquewhite;
 }
 
 .author {
@@ -97,12 +99,14 @@
 }
 
 /* rabbit */
-.rabbit *, .rabbit * a {
-  color:rgb(0, 0, 0)
+.rabbit *,
+.rabbit * a {
+  color: rgb(0, 0, 0);
 }
 
-.rabbit .nav ul li a, .rabbit .nav ul li:hover {
-  color:rgba(0, 0, 0, 0.75);
+.rabbit .nav ul li a,
+.rabbit .nav ul li:hover {
+  color: rgba(0, 0, 0, 0.75);
 }
 
 .rabbit {
@@ -112,7 +116,7 @@
 }
 
 .content {
-  padding: 10rem 5rem;
+  padding: 10rem 2rem 30rem 2rem;
 }
 
 .content div {
@@ -121,4 +125,14 @@
 
 .content a {
   background-color: rgba(0, 0, 0, 0.05);
+}
+
+.content li {
+  list-style: square;
+}
+
+@media screen and (max-width: 490px) {
+  .content {
+    padding: 10rem 2rem 40rem 2rem;
+  }
 }
