@@ -17,10 +17,6 @@ const inspiration = () => {
       </div>
       <div className="content">
         <Container fluid>
-          {/*  */}
-          {/*  */}
-          {/*  */}
-          {/*  */}
           <Row>
             <Col></Col>
             <Col>
@@ -45,13 +41,9 @@ const inspiration = () => {
               <small>the matrix (1999)</small>
             </Col>
           </Row>
-          {/*  */}
-          {/*  */}
-          {/*  */}
-          {/*  */}
           <Row>
             <Col>
-              <div style={{ float: "right" }}>
+              <div>
                 <img
                   src="https://media.giphy.com/media/EoCPvzEv8Ha0g/giphy.gif"
                   alt="pulp fiction"
@@ -88,34 +80,25 @@ const inspiration = () => {
               <small>low </small>
             </Col>
             <Col>
+              <h4>&#10063;ASDASDASD</h4>
+              <p>asdasdasdasd</p>
+            </Col>
+            <Col>
               <img src={soundopamine} alt="soundopamine"></img>
               <br />
               <small>soundopamine</small>
             </Col>
-            <Col>
-              <h4>&#10063;Inspiration</h4>
-              <p>
-                I sometimes imagine the world in the 2000s (2003 was gold, I
-                believe) or sometimes I just imagine it without any of the human
-                made structures and pure nature. Either way, thinking about it,
-                makes the world more enjoyable in my view. However, there are
-                many things that I get inspired from, I really enjoy some
-                movies, songs and art.
-              </p>
-            </Col>
           </Row>
           <Row>
-            <Col></Col>
             <Col>
-              <h4>&#10063;Inspiration</h4>
-              <p>
-                I sometimes imagine the world in the 2000s (2003 was gold, I
-                believe) or sometimes I just imagine it without any of the human
-                made structures and pure nature. Either way, thinking about it,
-                makes the world more enjoyable in my view. However, there are
-                many things that I get inspired from, I really enjoy some
-                movies, songs and astrology.
-              </p>
+              <img src="https://i.imgur.com/khiEuqeg.png" alt="mars"></img>
+              <br />
+
+              <small>gale crater, mars 2015</small>
+            </Col>
+            <Col>
+              <h4>&#10063;ASDSAD</h4>
+              <p>asdasdasd</p>
             </Col>
             <Col>
               <Col>
@@ -127,26 +110,6 @@ const inspiration = () => {
           </Row>
           <Row>
             <Col>
-              <h4>&#10063;Inspiration</h4>
-              <p>
-                I sometimes imagine the world in the 2000s (2003 was gold, I
-                believe) or sometimes I just imagine it without any of the human
-                made structures and pure nature. Either way, thinking about it,
-                makes the world more enjoyable in my view. However, there are
-                many things that I get inspired from, I really enjoy some
-                movies, songs and art.
-              </p>
-            </Col>
-            <Col>
-              <img src="https://i.imgur.com/khiEuqeg.png" alt="mars"></img>
-              <br />
-
-              <small>gale crater, mars 2015</small>
-            </Col>
-            <Col></Col>
-          </Row>
-          <Row>
-            <Col>
               <img
                 src="https://cdn.mos.cms.futurecdn.net/pvD3MXce9gA3C6soY5cLa9-970-80.jpg.webp"
                 alt="mars"
@@ -154,16 +117,7 @@ const inspiration = () => {
               <br />
               <small>middle earth, minecraft</small>
             </Col>
-            <Col>
-              <h4>favourite movies</h4>
-              <ul>
-                <li>the matrix</li>
-                <li>lord of the rings</li>
-                <li>pulp fiction</li>
-                <li>the godfather</li>
-                <li>schindler's list</li>
-              </ul>
-            </Col>
+            <Col>asdas</Col>
             <Col></Col>
           </Row>
         </Container>

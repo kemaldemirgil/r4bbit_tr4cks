@@ -126,7 +126,11 @@ const mywork = () => {
               </ul>
             </Col>
             <Col md={4}>
-              <img src={meteorrush} alt="meteorrush"></img>
+              <img
+                src={meteorrush}
+                className="meteorrush"
+                alt="meteorrush"
+              ></img>
               <br />
               <small>meteor rush (2021)</small>
             </Col>
