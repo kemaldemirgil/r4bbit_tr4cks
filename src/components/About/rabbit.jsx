@@ -45,7 +45,6 @@ const rabbit = () => {
             <Col md={2}>
               <img src={img} width="200" height="200" alt="faces"></img>
               <br />
-              <small>too many faces</small>
             </Col>
           </Row>
           <Row>
@@ -62,7 +61,6 @@ const rabbit = () => {
             <Col md={2}>
               <img src={img2} width="200" height="200" alt="rabbits"></img>
               <br />
-              <small>rabbits</small>
             </Col>
           </Row>
           <Row>

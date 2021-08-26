@@ -17,9 +17,6 @@ const Navigator = () => {
             <li>
               <Link to="/about/inspiration">inspiration</Link>
             </li>
-            <li>
-              <Link to="/about/flags">flags</Link>
-            </li>
           </ul>
         </div>
         <div>

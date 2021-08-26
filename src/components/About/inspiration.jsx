@@ -101,11 +101,9 @@ const inspiration = () => {
               <p>asdasdasd</p>
             </Col>
             <Col>
-              <Col>
-                <img src="https://i.redd.it/8wf9eztv67d61.jpg" alt="mars"></img>
-                <br />
-                <small>kenshi</small>
-              </Col>
+              <img src="https://i.redd.it/8wf9eztv67d61.jpg" alt="kenshi"></img>
+              <br />
+              <small>kenshi</small>
             </Col>
           </Row>
           <Row>
