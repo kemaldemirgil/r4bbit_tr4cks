@@ -4,7 +4,6 @@ import home from "./components/home";
 import notfound from "./components/notfound";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import rabbit from "./components/About/rabbit";
-import flags from "./components/About/flags";
 import inspiration from "./components/About/inspiration";
 import work from "./components/About/mywork";
 import milestones from "./components/Blog/milestones";
@@ -31,7 +30,6 @@ function App() {
           <Route exact path="/about/rabbit" component={rabbit} />
           <Route exact path="/about/mywork" component={work} />
           <Route exact path="/about/inspiration" component={inspiration} />
-          <Route exact path="/about/flags" component={flags} />
           <Route exact path="/blog/tracks" component={tracks} />
           <Route exact path="/blog/milestones" component={milestones} />
           <Route exact path="/photos/sky" component={sky} />
